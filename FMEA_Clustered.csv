@@ -1,0 +1,122 @@
+Component ID,Component,Failure Mode,Cause,Effect,Maintenance Strategy,Severity,Occurrence,Detection,RPN,Cluster
+FM1,Gearbox,Gearbox oil leakage,Seal ring damage or unqualified assembly,Reduce the life of worm gear transmission,Visual inspection,7.0,4.0,6.0,168,2
+FM2,Hydraulic cylinder,Hydraulic cylinder leakage,Seal ring damage,Hydraulic system failure,Regular maintenance,9.0,3.0,4.0,108,2
+FM3,Bearing,Insufficient bearing lubrication,Lubrication pipe blockage or insufficient lubricating oil,Bearing temperature rise,Regular maintenance,6.0,5.0,3.0,90,1
+FM4,Hydraulic system,Insufficient clamping force,Hydraulic pipe blockage or leakage,Workpiece loose or falling off,Regular inspection,6.0,4.0,5.0,120,1
+FM5,Gear,Gear wear,Insufficient lubrication,Vibration increase,Regular inspection,5.0,4.0,4.0,80,1
+FM6,Gear,Insufficient gear lubrication,Lubrication pipe blockage,Gear wear or vibration increase,Regular maintenance,5.0,5.0,4.0,100,1
+FM7,Motor,Excessively high motor temperature,Bearing damage or motor fan damage,Motor damage,CNC system alarm,9.0,3.0,2.0,54,2
+FM8,Transmission system,Workpiece axis accuracy decreased,Transmission system failure,Reduce machining accuracy,Regular inspection,8.0,4.0,3.0,96,2
+FM9,Cutting fluid system,Insufficient cutting fluid flow,Pump damage or insufficient cutting fluid,Temperature rise in machining area,CNC system alarm,7.0,5.0,3.0,105,2
+FM10,Bearing,Bearing wear,Insufficient lubrication or impurities in the bearing,Reduce machining accuracy,Regular inspection,6.0,4.0,4.0,96,1
+FM11,Fuselage (wing fuel tank relief valve),Light does not shine when refueling,"Internal circuit failure, Relief vent does not light",Local influence,Replacement parts,4.0,2.0,3.0,24,1
+FM12,Fuel electric switch,Electric switch indicator rod junction leakage oil,Sealing gasket aging,Affects performance,Replacement parts,5.0,3.0,2.0,30,1
+FM13,Fuel gauge,Swing. Jitter. in the instruction swing,Oil indicator internal bridge fault,Damages system functionality,Replacement parts,4.0,3.0,3.0,36,1
+FM14,Switch,Indication abnormal in the conversion switch set to left wing,Internal mechanical failure,Affects performance,Replacement parts,4.0,3.0,2.0,24,1
+FM15,Gas turbine starter,Function failure when not turning the engine on starting,Starter low efficiency,Function failure,Replacement parts,9.0,2.0,1.0,18,2
+FM16,Fuel level controller,Lights are not bright when refueling,Fuel oil controller damage,Local influence,Replacement parts,3.0,4.0,5.0,60,1
+FM17,Cylinder assembly,Air leakage from cylinder assembly,Inadequate stroke of pusher cylinder,O-ring failure,Replace or repair O-rings,4.0,4.0,5.0,80,1
+FM19,Pusher assembly,Over travel in cylinder arm,Bad control,Dents on bottles,Adjust control parameters,2.0,3.0,1.0,6,1
+FM26,Pusher assembly,Damaged rod seals,Excessive side loading,Contaminates entering pusher cylinder between shaft and cylinder,Enhance inspection protocols,5.0,4.0,6.0,120,1
+FM29,Pusher assembly,Aeration,Air drawn past rod seals during actuation,Damaged actuator and loss of seals,Improve air seal design,5.0,3.0,5.0,75,1
+FM31,Shaft,Bush loose on shaft,Vibration,Loose coupling,Check and secure bushings,5.0,6.0,6.0,180,4
+FM32,Shaft,Damaged set screw of bushing,Overtightening,Bushing failure,Regular torque checks,5.0,6.0,6.0,180,4
+FM33,Machine base,Plate surface uneven,Manufacturing error,Leakage,Ensure manufacturing quality,7.0,3.0,6.0,126,2
+FM34,Pusher assembly,Loose pusher finger,Excessive temperature,Wares un-transferable,Regular temperature checks and component inspections,5.0,8.0,3.0,120,4
+FM35,Valve System,Valve Sticking,Mineral deposits,Reduced fluid flow,Regular cleaning and inspection,4.0,5.0,3.0,60,1
+FM36,Electrical System,Wire Insulation Breakdown,Heat and aging,Short circuit,Regular insulation testing,6.0,4.0,5.0,120,1
+FM37,Cooling System,Radiator Leak,Corrosion or physical damage,Overheating of system,Regular inspection and replacement,5.0,3.0,4.0,60,1
+FM38,Control System,Software Glitch,Software aging or bugs,System shutdown,Regular software updates,7.0,3.0,5.0,105,2
+FM39,Pump System,Impeller Wear,Normal wear and tear,Reduced pump efficiency,Regular replacement,4.0,6.0,4.0,96,4
+FM40,Conveyor Belt,Tearing of belt,Overloading or poor maintenance,Disruption in material handling,Regular load checks and maintenance,5.0,4.0,4.0,80,1
+FM41,Hydraulic Arm,Cylinder Misalignment,Poor installation or wear,Inaccurate arm movement,Realignment and regular checks,6.0,5.0,5.0,150,1
+FM42,Battery System,Battery Failure,Overcharging or deep discharge,Power loss,Regular voltage and load testing,6.0,4.0,3.0,72,1
+FM43,LED Display,LED Flickering,Faulty LEDs or power supply,Reduced visibility,Regular check and replace faulty LEDs,3.0,4.0,5.0,60,1
+FM44,Fire Suppression System,Nozzle Clogging,Accumulation of dirt,Ineffective fire suppression,Clean and inspect nozzles yearly,6.0,2.0,4.0,48,2
+FM45,Air Conditioning,Loss of Coolant,Leak in the system,Failure to cool,Inspect and refill coolant,6.0,3.0,4.0,72,2
+FM46,Sensor Array,Inaccurate Readings,Calibration drift,Incorrect data,Calibrate bi-annually,5.0,5.0,5.0,125,1
+FM47,Power Supply,Overheating,Inadequate ventilation,Shutdown of equipment,Improve ventilation,6.0,4.0,3.0,72,1
+FM48,Transmission Gears,Gear Slippage,Inadequate lubrication,Reduced transmission efficiency,Check and refill oil,7.0,4.0,3.0,84,2
+FM49,Security System,Camera Blind Spots,Improper installation,Inadequate surveillance coverage,Reposition cameras,4.0,2.0,5.0,40,1
+FM50,Solar Panel,Decreased Output,Accumulation of dirt and debris,Lower power generation,Clean panels quarterly,3.0,5.0,4.0,60,1
+FM51,Water Pump,Cavitation,High velocity operation or low pressure,Damage to pump components,Operate within recommended speeds,8.0,4.0,3.0,96,2
+FM52,Gas Detector,Sensor Failure,Exposure to extreme conditions,Failed hazard detection,Regular replacement and testing,9.0,3.0,2.0,54,2
+FM53,Server Hardware,System Crash,Overloading,Data loss,Upgrade infrastructure and balance load,8.0,3.0,1.0,24,2
+FM54,Drone,Rotor Damage,Impact with objects,Flight instability,Inspect and replace rotors,7.0,4.0,5.0,140,2
+FM55,Paint Line,Drip and Sag,Incorrect application temperatures,Quality defects in finish,Monitor and adjust environment,5.0,6.0,3.0,90,4
+FM56,Vacuum System,Seal Deterioration,Material aging,Air leakage,Maintain and replace seals,4.0,5.0,4.0,80,1
+FM57,Pressure Vessel,Corrosion Damage,Chemical exposure,Leak or burst,Regular coating and inspection,9.0,3.0,3.0,81,2
+FM58,Assembly Line,Robot Misalignment,Wear and tear,Product defects,Regular recalibration,6.0,4.0,4.0,96,1
+FM59,Insulation Material,Degradation,Environmental exposure,Reduced insulation property,Inspect and replace,5.0,4.0,4.0,80,1
+FM60,Navigation System,GPS Signal Loss,Signal interference,Navigation error,Regular system tests,4.0,4.0,5.0,80,1
+FM62,Piston Ring,Drop of the ring from the piston; Seizure of the piston-ring,Touching piston rings with bare hands; Dirt and moisture; Greasing of the ring,Workstation and process control; Control of the alphining alloy,4,3.0,3.0,36.0,,1
+FM63,Piston,Poor properties of the piston; Limited operating time,No or poor melting loss removal; Bad quality of crucibles,Control during every gas refining process; Workstation control,5,4.0,4.0,80.0,,1
+FM64,Piston Ring,Bad alignment of the ring; No connection with the piston; Seizure of the ring,Incorrect casting method; Mechanical working carried out incorrectly; Negligent alphining process,Control of the process; Quality control of the metal moulds and the ladle,5,3.0,3.0,45.0,,1
+FM65,Piston Ring,No connection with the piston; Low endurance of the ring; Microporosity of the ring,Incorrect casting iron method; Poor condition of the furnace brickwork; Poor condition of the metal moulds,Control of the process of barrel casting; Quality control of the metal moulds and the ladle,5,4.0,4.0,80.0,,1
+FM66,Piston,Too low hardness and properties of the piston; Hindered heat treatment; Reduced time of failure-free operation,Low quality of batch materials; No control of chemical composition; Improper modification process,Control of furnaces for melting of the alloys; Control of the alloy melting process; Control of chemical composition,6,3.0,3.0,54.0,,1
+FM67,Piston,Poor properties of the piston; Excessive porosity and low endurance; Limited working life,Bad quality of crucibles; The metal moulds not covered; The refining process carried out incorrectly,Control during every gas refining process; Workstations control; Technological manuals control,7,2.0,2.0,28.0,,1
+FM68,Fuselage (wing fuel tank relief valve),Light does not shine when refueling,"Internal circuit failure, Relief vent does not light",Local influence,Replacement parts,3.0,3.0,4.0,36,1
+FM69,Fuel electric switch,Oil spill,Sealing gasket aging,Affects performance,Replacement parts,4.0,4.0,3.0,48,1
+FM70,Fuel gauge,Swing. Jitter.,Oil indicator internal bridge fault,Damages system functionality,Replacement parts,5.0,3.0,3.0,45,1
+FM71,Switch,Indication abnormal,Internal mechanical failure,Affects performance,Replacement parts,4.0,4.0,4.0,64,1
+FM72,Gas turbine starter,Function failure when not turning the engine on starting,Starter low efficiency,Function failure,Replacement parts,6.0,2.0,3.0,36,2
+FM73,Fuel level controller,Lights are not bright when refueling,Fuel oil controller damage,Local influence,Replacement parts,3.0,5.0,4.0,60,1
+FM74,Main Pump,Fails to operate,Hydraulic system failure,No effect during this phase,Indication to pilot,4.0,2.0,5.0,40,1
+FM75,Main Pump,Untimely operation,Untimely hydraulic pressure,Untimely extension of Landing Gear,Indication to pilot,5.0,4.0,3.0,60,1
+FM76,Check Valve (Main),Stuck closed,Loss of fluid flow through the check valve,No effect,Indication to pilot,4.0,3.0,4.0,48,1
+FM77,Check Valve (Main),Stuck open,Permits fluid flow when not required,No effect,Undetected,3.0,5.0,2.0,30,1
+FM78,M-5 Screw,Loosening causes vibration,Undesirable vibration,Blade unbalancing and rotor vibration,Preflight check,5.0,2.0,3.0,30,1
+FM79,Hub,Bearing teetering damage,Loss of lubricant,"Delay in control commands, Rotor vibration",Preflight check,6.0,3.0,4.0,72,2
+FM80,Regulator,Damaged,Fault in electronic system,No power transmitted to avionics,Redundant part,7.0,3.0,2.0,42,2
+FM81,Cylinder Assembly,Air leakage,Inadequate stroke of pusher cylinder,,Replace or repair O-rings,4.0,4.0,5.0,80,1
+FM82,Pusher Fingers,Wear marks,High temperature wears out,,Regular maintenance,2.0,5.0,3.0,30,1
+FM83,Cylinder Arm,Dents on bottles,Bad control,,Adjust control parameters,2.0,4.0,2.0,16,1
+FM84,Pusher Assembly,Over vibration from broken bolt,"Misalignment, inappropriate tightening",,Check and realign,4.0,3.0,3.0,36,1
+FM85,Pusher Assembly,Excessive vibration from loose bolt,"Inappropriate tightening, excessive temperature",,Regular inspection and tightening,5.0,2.0,2.0,20,1
+FM86,Piston of Pusher Assembly,Wear causes clearance and play,"Lubrication, wear out",,Replace worn parts,4.0,5.0,3.0,60,1
+FM87,Machine Conveyor,Piston ring wear from hot glass transfer,"Lubrication, wear out",,Enhance maintenance schedule,4.0,6.0,3.0,72,4
+FM88,Shaft,Loose bush on shaft,Vibration,Loose coupling,Check and secure bushings,5.0,6.0,3.0,90,4
+FM89,Shaft,Damaged set screw of bushing,Overtightening,Bushing failure,Regular torque checks,5.0,6.0,3.0,90,4
+FM90,Machine Base,Uneven plate surface,Manufacturing error,Leakage,Ensure manufacturing quality,7.0,3.0,4.0,84,2
+FM91,Pusher Finger,Loose due to high temperature,Excessive temperature,Wares un-transferable,Regular temperature checks and component inspections,5.0,4.0,3.0,60,1
+FM92,Water Treatment System,Nonfulfillment of SOP,Low level of concern and knowledge,Irregularities in work,Enforce training and compliance to SOP,4.0,3.0,4.0,48,1
+FM93,Water Intake Quality,Raw water quality does not meet standard,Industrial pollution on river banks,Raw water quality that does not meet standard,Regular monitoring and lobbying for pollution control,6.0,5.0,3.0,90,1
+FM94,Pumping Machines,Maintenance Negligence,Lack of machine maintenance SOP,Easy breakdown of machine,Implement regular maintenance schedules,5.0,4.0,4.0,80,1
+FM95,Pumping Machines,Excessive Operation Hours,No machine replacement,Fast machine damage,Schedule replacements and limit machine hours,7.0,4.0,2.0,56,2
+FM96,Chemical Dosing,Inappropriate Chemical Dosage,No preliminary calculations performed,Clean water does not comply with quality standards,Conduct training and enforce calculation checks,5.0,3.0,3.0,45,1
+FM97,Chemical Management,Improper Chemical Concentrations,Lack of chemical dosage SOP,Clean water does not comply with quality standards,Review and enhance chemical handling SOPs,5.0,3.0,3.0,45,1
+FM99,Clutch Pad,Wear clutch pads,Power not achieved,Forklift lacks power,Replace clutch pads regularly,8.0,1.0,6.0,480,2
+FM100,Master Clutch,Master clutch seal broken,Clutch pads on flywheel not release,Gear did not want to be inserted,Replace clutch seal and inspect master clutch,8.0,1.0,5.0,400,2
+FM101,Radiator,"Radiator water dirty, radiator rusted",Temperature not maintained according to working temperature,Engine overheats and does not start,"Clean and maintain radiator, replace if necessary",8.0,3.0,5.0,120,2
+FM102,Radiator,Leaking radiator fins,Temperature not maintained,Engine overheats and does not start,Inspect and replace radiator fins,8.0,3.0,5.0,120,2
+FM103,Radiator,Hose radiator was broken,Temperature not maintained,Engine overheats and does not start,Regular inspection and replacement of radiator hoses,8.0,3.0,5.0,120,2
+FM104,Tires,Tire leaking due to overload,Load was Overload,Forklift not moving,"Regular tire inspections, maintain load limits",5.0,5.0,5.0,125,1
+FM105,Tires,Terrain issues,"The terrain was traversed by many plates, the operator does not pay attention to the road",Forklift not moving,Train operators and inspect terrain prior to operation,8.0,1.0,3.0,240,2
+FM106,Solar Tank,"Clogged/dirty solar, dirty diesel tanks",Fuel pump damaged,Forklift jams,"Clean solar and diesel tanks regularly, check for sediments",7.0,6.0,8.0,336,4
+FM107,Hydraulic System,Leaking Seal hydraulic,Unable to lift weights at capacity,Reduced drive power,Replace hydraulic seals and inspect system regularly,6.0,5.0,7.0,210,1
+FM108,Hydraulic System,Hydraulic hose ruptured,Hydraulic does not work,Reduced hydraulic function,Regular inspection and replacement of hydraulic hoses,8.0,8.0,7.0,448,4
+FM109,Starter Motor,Carbon brush starter motor run out,Engine failed to start,Could not be turned on,Replace carbon brushes and inspect starter motor,4.0,6.0,4.0,96,4
+FM110,Starter Motor,Electric current is less than voltage working (12 V),Engine failed to start,Could not be turned on,Check electrical connections and ensure proper voltage,4.0,8.0,4.0,128,4
+FM116,Lever Bush(Fuel Pump),"Friction, wear",Overuse & excess friction,Inapt acceleration or actuation,4,8.0,10.0,320.0,Replacement after stipulated time span.,0
+FM117,Cam Plate (Fuel Pump),Pitting & Rusting,Water emulsions & fuel impurities,Erroneous fuel supply,7,15.0,9.0,945.0,Avoid water mixes and impure fuel.,3
+FM118,Rollers (Fuel Pump),Pitting & Rusting,Water emulsions & fuel impurities,Inaccurate fuel supply and noise,7,14.0,9.0,882.0,Avoid water mixes and impure fuel.,3
+FM119,Adjusting Plug (Fuel Pump),Friction,Friction among plug & fulcrum lever,Improper governing action,2,1.0,10.0,20.0,Ensure adequate lubrication and replace if needed.,4
+FM120,Body (Fuel Pump),Friction & Shear,Excessive tightening & fuel impurities,Improper pump functioning,6,10.0,3.0,180.0,Avoid excessive tightening of bolts and repair if needed.,2
+FM121,Shim (Fuel Pump),Thermal stresses,Friction & Wear,Negligible play,1,5.0,10.0,50.0,Replace in case of failure.,4
+FM122,Drive Shaft (Fuel Pump),Torsional fatigue,Inapt gear shifting & strength reduction due to corrosion,No motion transmission,10,11.0,3.0,330.0,Ensure proper gear shifting by operator & avoid corrosion.,0
+FM123,Lever Shaft (Fuel Pump),Torsional forces,Overuse & abrupt actuation,Improper acceleration,5,8.0,9.0,360.0,Replace after specific period.,0
+FM124,Time Device (TD) Piston(Fuel Pump),Thermal & Contact Stresses,Dry running & water logging,Failure to adjust fuel supply,7,12.0,8.0,672.0,Avoid water mixing and dry run.,3
+FM125,Solenoid (Fuel Pump),Choking,Fuel impurities,Insufficient fuel supply during overload situation,5,2.0,6.0,60.0,Ensure fuel filtration.,4
+FM126,Supply Pump (Fuel Pump),Frictional wear and corrosion,Water in fuel & dry run,Inadequate pressure in pump,8,5.0,7.0,280.0,Water mixing to be avoided and remove markings by polishing surface.,0
+FM127,Spring (Fuel Pump),Corrosion,Water in fuel,Failure to regulate fuel supply,6,5.0,8.0,240.0,Water mixing to be avoided.,0
+FM128,Pressure Valve (Fuel Pump),Thermal stress,Dry run,Failure to regulate pressure,7,2.0,7.0,98.0,Replace if required.,4
+FM129,Transfer/Supply/Booster Pump,Abnormal sound,Defective bearing/Shaft displacement,Overloading of electric motor,6,7.0,4.0,168.0,,2
+FM130,Transfer/Supply/Booster Pump,Running without oil,Gear wear-out,Low transfer/supply pressure,5,8.0,5.0,200.0,,0
+FM131,High Pressure Fuel Pump,Low supply pressure,Opening suction valve early or late,Decreasing in the engine power output,5,8.0,5.0,200.0,,0
+FM132,Fuel Valve,Early opening of fuel valve,Service pressure too light,"Poor atomisation and combustion, timing problems, power balance and temperature variations",9,7.0,5.0,315.0,,0
+FM133,Fuel Valve,Dripping,Oversized injection mechanisms,"Sticking of piston rings in their grooves, fire blow",7,8.0,6.0,336.0,,0
+FM134,Strainer,Plugged strainer,High viscous oil,Pressure drop in line,9,5.0,3.0,135.0,,1
+FM135,Separator,Abnormal sound,Defective bearing,Overloading of electric motor,6,8.0,5.0,240.0,,0
+FM136,Separator,Inadequate flow range,Inadequate pumping pressure,Gear wear-out,5,6.0,6.0,180.0,,0
+FM138,Heat Exchanger,Abnormal Temperature,Fouling in heat exchanger,Operational capability of the heat exchanger is correspondingly reduced,8,5.0,4.0,160.0,,1
+FM139,Three-way Valve,Inoperable,Seizing of valve,Threaten safe ship manoeuvring,5,9.0,7.0,315.0,,0
