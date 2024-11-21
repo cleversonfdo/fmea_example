@@ -4,7 +4,7 @@
 
 ![cluser](https://github.com/user-attachments/assets/9079ef0b-8a4f-458a-b643-d1169b052346)
 
-| Cluster Averages |
+| |Cluster Averages ||
 |Model Name               |  MAE CV              |    MAPE CV       |    RMSE CV  	   |
 |:-----------------------:|:--------------------:|:----------------:|:--------------------:|
 |Linear Regression        |  2083.37+/-299.73    |   0.3+/-0.02     |   2953.27+/-471.41   |
